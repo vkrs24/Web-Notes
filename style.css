@@ -3,6 +3,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-color: #09122c;
 }
@@ -30,7 +31,9 @@ body {
   height: 3rem;
 }
 
-.notes_container {
+.copy_cnt {
+  color: white;
+  text-align: center;
 }
 
 .input_text {
